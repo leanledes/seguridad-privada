@@ -20,7 +20,7 @@
 		#Cambiar la ruta de refrescado cuando ya esté en el servidor
 		if($ready){
 			print "<script>alert('Mensaje enviado');</script>";
-            print "<meta http-equiv='refresh' content='0.001; http://localhost/seguridadrk/index.html'"; 
+            print "<meta http-equiv='refresh' content='0.001; https://leanledes.github.io/seguridad-privada/index.html'"; 
 		}else{
 			print "algo ocurrio!";
 		}
