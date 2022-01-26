@@ -15,12 +15,12 @@
 		
 		$msg =  "El (la) c. $nombre de la empresa $empresa, con telefono $telefono, requiere el servicio $servicio y sus comentarios son: $coment";
 		
-		$ready = mail($para,"Servicios","asdfsad");
+		$ready = mail($para,"Servicios","");
 		
 		#Cambiar la ruta de refrescado cuando ya esté en el servidor
 		if($ready){
 			print "<script>alert('Mensaje enviado');</script>";
-            print "<meta http-equiv='refresh' content='0.001; https://leanledes.github.io/seguridad-privada/index.html'"; 
+            print "<meta http-equiv='refresh' content='0.001; http://leanledes.github.io/seguridad-privada/index.html'"; 
 		}else{
 			print "algo ocurrio!";
 		}
